@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>My Resume</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="./public/style.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <style></style>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">MY RESUME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">Work History</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#workHistory">Work Experience</a></li>
+                                <li><a class="dropdown-item" href="#otherProjects">Other Projects</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person"></i>About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-telephone"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid bg-home text-center" id="home">
+            <h3>GOKILA MURUGAN</h3>
+            <h4><small>Software developer</small></h4>
+            <img src="./images/userImage.png"  class="img-circle" alt="profile image" width="400" height="400">
+        </div>
+        <div class="container-fluid bg-section profile" id="profile">
+            <!-- <h3>PROFILE</h3> -->
+            <div class="row gx-5">
+                <div class="col-md-4">
+                    <h3 class="text-center mb-3">CAREER OBJECTIVE</h3><hr/>
+                    <p class="">To Secure a responsible career opportunity as a Front End Developer to fully utilize my skills and challenge myself while making a significant contribution to the success of an Organization.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center mb-3">PROFESSIONAL SUMMARY</h3><hr/>
+                    <ul class="">
+                        <li>Dynamic and creative software developer with 4 Years of experience as Software Engineer having experience in Analysis, Design, Development and implementation on JavaScript, Java, CSS technology.</li>
+                        <li>Good experience in Eclipse, Post Man, Git, JBOSS and TOSCA.</li>
+                        <li>Able to manage changing responsibilities and deliver time critical project on schedule.</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center mb-3">TECHNICAL SKILLS</h3><hr/>
+                    <div class="d-flex flex-wrap justify-content-center align-items-center m-0 p-0 gap-2 skills">
+                        <div class="">JavaScript</div>
+                        <div class="">SQL</div>
+                        <div class="">Java</div>
+                        <div class="">Apache Tomcat 7.0</div>
+                        <div class="">TOSCA</div>
+                        <div class="">Appzillon</div>
+                        <div class="">Finacle</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="container-fluid bg-section" id="workHistory">
+        <h3 class="text-center mb-4">PROJECT DETAILS </h3>
+        <div class="accordion" id="projectAccordion">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="projectOne">
+                    <button class="accordion-button collapsed p-4 fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#project1" aria-expanded="false" aria-controls="project1">
+                        Developing a Banking Application by Appzillon
+                    </button>
+                </h3>
+                <div id="project1" class="accordion-collapse collapse" aria-labelledby="projectOne" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        <h3 class="d-flex justify-content-center align-items-center text-start">
+                            Employer      : Infosys Limited.<br>
+                            Role               : Senior System Engineer<br>
+                            Skills              : JavaScript, jQuery, CSS, HTML.<br> 
+                            IDE                : Appzillon.<br><br>
+                            
+                        </h3>
+                        <h3>Project Description :</h3>
+                        <ul>
+                            <li>Appzillon provides an integrated development environment for cross platform mobile application. UI/UX and business logic are written using HTML, JavaScript and CSS. It enables JavaScript API that handles device specific features like Push Notification, NFC, SQLite, Zip, File Operation, File browser, Certificate pinning, Barcode and QR Code Reader, Camera, Map, PDF, Accelerometer, Scanner, Compass and GPS.</li>
+                            <li>This Project includes developing code for Web based and Mobile Application.</li>
+                        </ul>
+                        <h3>Role and Responsibilities :</h3>
+                        <ul>
+                            <li>Developing the Application  within agreed timeline as per SLA.</li>
+                            <li>Designing, Developing and Testing.</li>
+                            <li>Designed and Developed Front-End webpages using JavaScript, jQuery and CSS.</li>
+                            <li>Worked on the team environment to finalize develop functional and detail design specification of the application.</li>
+                            <li>Understanding the client requirements and functionality of the system.</li>
+                            <li>Adding additional functionality to the application based on the new requirement.</li>
+                            <li>Testing webservices using Postman tool.</li>
+                            <li>Capable of quickly acquiring new skills and learn about processes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="projectTwo">
+                    <button class="accordion-button collapsed p-4 fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#project2" aria-expanded="false" aria-controls="project2">
+                        Finacle Banking Application
+                    </button>
+                </h3>
+                <div id="project2" class="accordion-collapse collapse" aria-labelledby="projectTwo" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        <h3 class="d-flex justify-content-center align-items-center text-start">
+                            Employer      : Infosys Limited.<br>
+                            Role               :  System Engineer<br>
+                            Technologies : Finacle Testing <br><br>
+                            
+                        </h3>
+                        <h3>Project Description :</h3>
+                        <ul>
+                            <li>Finacle is a core banking solution that enables bank with digital banking functionalities. This provides effective management and use of customer interaction records and information.</li>
+                            <li>This Project includes Manual and Automation testing of the Application.</li>
+                        </ul>
+                        <h3>Role and Responsibilities :</h3>
+                        <ul>
+                            <li>Worked on Manual and Automation Testing of the Application within agreed timeline as per SLA.</li>
+                            <li>Having Good Knowledge of TOSCA Automation Tool.</li>
+                            <li>Deriving Test Scenarios, Documenting Test Cases and Collecting Test Data for Functional Testing.</li>
+                            <li>Created and executed automated software test plans and cases.</li>
+                            <li>Understanding the client requirements and functionality of the system.</li>
+                            <li>Preparing defect Report and assigning the defects to the developers.</li>
+                            <li>Capable of quickly acquiring new skills and learn about processes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        </div>     
+        <div class="container-fluid bg-section" id="otherProjects">
+            <h3 class="text-center mb-4">OTHER CAPSTONE PROJECT DETAILS </h3>
+            <div class="list-group">
+                <a href="https://gokilam8697.github.io/gokilaCapstoneProject1/" class="list-group-item list-group-item-action p-4 fs-5">Project 1 : Online Resume Using HTML</a>
+                <a href="https://gokilam8697.github.io/capstoneProject2/" class="list-group-item list-group-item-action p-4 fs-5">Project 2 : Online Resume Using CSS Flex and Grid</a>
+                <a href="#" class="list-group-item list-group-item-action p-4 fs-5">Project 3 : Online Resume using Bootstrap 5</a>
+              </div>
+        </div>
+        <div class="container-fluid bg-section education" id="education">
+            <h3 class="text-center mb-4">EDUCATION </h3>
+            <div id="educationCarousel" class="carousel slide w-75" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#educationCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#educationCarousel" data-bs-slide-to="1" class=""></button>
+                    <button type="button" data-bs-target="#educationCarousel" data-bs-slide-to="2" class=""></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="fw-bold fs-3">BE ELECTRONICS AND COMMUNICATIONS ENGINEERING - 2018</p>
+                        <p class="fs-4">PSNA college of Engineering and Technology, Dindigul, Tamil Nadu. </p>
+                        <p class="fs-4">Aggregate Percentage: <span class="fw-bold">81.5%</span></p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="fw-bold fs-3">Higher Secondary - 2014</p>
+                        <p class="fs-4">Vivekananda Vidyalaya Matric Higher Secondary School, Rameswaram, Tamil Nadu.</p>
+                        <p class="fs-4">Aggregate Percentage: <span class="fw-bold">86.75% </span></p>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="fw-bold fs-3">SSLC - 2012</p>
+                        <p class="fs-4">Vivekananda Vidyalaya Matric Higher Secondary School, Rameswaram, Tamil Nadu.</p>
+                        <p class="fs-4">Aggregate Percentage: <span class="fw-bold">95% </span></p>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#educationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#educationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>        
+        <div class="container-fluid bg-section personalDet" id="about">
+            <h3 class="text-center mb-4">PERSONAL DETAILS</h3>
+            <table class="table border-0 w-75">
+                <tbody>
+                  <tr >
+                    <td>Father’s Name</td>
+                    <td>MURUGAN</td>
+                  </tr>
+                  <tr>
+                    <td>Date of birth</td>
+                    <td>08-06-1997</td>
+                  </tr>
+                  <tr>
+                    <td>Nationality</td>
+                    <td>Indian</td>
+                  </tr>
+                  <tr>
+                    <td>Mother Tongue</td>
+                    <td>Tamil</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="container-fluid bg-section  " id="contact">
+            <h3 class="text-center mb-4">Get in touch</h3>
+            <div class="d-flex flex-wrap fs-4 m-0 p-0 gap-5 w-100 contact">
+                <div class="flex-fill contact-item">
+                    <p><i class="bi bi-geo-alt-fill"></i></p>
+                    <p>123, abcdefghijkl......, <br>R*******m - 623526.</p>
+                </div>
+                <div class="flex-fill contact-item">
+                    <p><i class="bi bi-telephone-fill"></i></p>
+                    <p>0123456789</p>
+                </div>
+                <div class="flex-fill contact-item">
+                    <p><i class="bi bi-envelope-fill"></i></p>
+                    <p>gok**********@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <footer class="text-end mx-2"><p><b>© <i>2024 Gokilamurugan</i></b></p></footer>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+        
+    </body>
+</html>

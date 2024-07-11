@@ -1,0 +1,122 @@
+body{
+    font-size: 16px;
+}
+.navbar {
+    padding-top : 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.container-fluid{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 4%;
+    padding-left: 4%;
+    overflow: hidden;
+    
+}
+.bg-home{
+    /* background-color:rgb(1, 80, 104);background-color: #448796;*/
+    background-color: #015068;
+    color: white;
+    padding-top: 100px;
+}
+.bg-home small{
+    color : whitesmoke;
+}
+.bg-section{
+    background-color: #93D5E9;
+    color: black;
+}
+.profile{
+    text-align: justify;
+}
+.profile hr{
+margin-top: 0%;
+width: 100%;
+border-top: 1px solid black;
+opacity: 50%;
+}
+
+.skills > div{
+    background-color: #015068;
+    color: whitesmoke;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.accordion-item{
+    background-color: #93D5E9;
+    border:1px solid #015068;
+}
+.accordion-button, .accordion-button:not(.collapsed){
+    background-color: #015068;
+    color: white;
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+.list-group-item{
+    /* font-size: 1rem; */
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+.list-group-item:nth-child(odd){
+    background-color: #41AFBE;
+    /* border-radius: 50%; */    
+}
+.list-group-item:nth-child(even){
+    background-color: #0B383E;
+    color: white;
+}
+.education, .personalDet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: balance;
+    height: auto
+}
+.carousel{
+    padding: 70px;
+    border: 1px double #ADF5FF;
+    width:100%;
+    background-color: #ADF5FF;
+}
+.carousel-item{
+    text-align: center;
+}
+.carousel-indicators [data-bs-target], .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #015068;
+}
+.table>tbody>tr{
+    border: 0px;
+    text-align: center;
+}
+.table>tbody>tr:nth-of-type(odd)>*{
+    --bs-table-bg: #41AFBE;
+}
+.table>tbody>tr:nth-of-type(even)>*{
+    --bs-table-bg: #93D5E9;
+}
+.contact{
+    width: 100%;
+}
+.contact i{
+    font-size: xxx-large;
+    color: #015068;
+}
+.contact p{
+    text-align: center;
+}
+.contact-item {
+    border: 1px solid #015068;
+    background-color: #ADF5FF; 
+    align-content: center;
+    height: 250px;
+    border-radius: 50%;
+}
+img{
+    border-radius: 50%;
+}
